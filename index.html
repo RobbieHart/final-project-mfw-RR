@@ -13,12 +13,7 @@
  
     <title>PokéGuide</title>
   </head>
-  <body>
-    <h1>PokéGuide!</h1>
-
-    <div class="bg-success"
-    style="background-color:#212529;"></div>
-    
+  <body>    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -29,39 +24,34 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-
-    <nav class="navbar navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="IMG/Mylogo.png" alt="logo" width="auto" height="32" class="d-inline-block align-text-top"
-          Bootstrap>
+        <a class="navbar-brand" href="">
+          <img src="IMG/Mylogo.png"width="auto" height="32" alt="">
         </a>
-        <div class="container d-flex bd-highlight justify-content-start">
-          <div class="p-2 bd-highlight">Games</div>
-          <div class="p-2 bd-highlight">TV Shows</div>
-          <div class="p-2 bd-highlight">Movies</div>
-        </div>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PokéGuide</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Games</a><li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">TV Shows<a><li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Movies</a></li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link"href="#">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item">
+              <a class="nav-link">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
       </div>
     </nav>
+
+    <h1>PokéGuide!</h1>
+
+  
   </body>
 </html>
