@@ -5,3 +5,14 @@
 .header-title {
     text-align: center;
 }
+
+.jumbotron {
+    background-size: cover;
+    min-height: 70vh;
+    position: relative;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+}
