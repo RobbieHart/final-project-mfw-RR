@@ -2,9 +2,15 @@
     --bs-body-bg: black;
 }
 
-.header-title {
+.header-jumbo {
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
+    color: rgb(158, 246, 243);
+}
+
+.header-foot {
+    text-align: center;
+    font-size: 35px;
     color: rgb(158, 246, 243);
 }
 
@@ -13,4 +19,10 @@
     min-height: 70vh;
     position: relative;
     color: rgb(158, 246, 243);
+}
+
+.color-overlay {
+    position:absolute;
+    width: 100%;
+    height: 100%;
 }
