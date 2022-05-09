@@ -1,3 +1,7 @@
-html {
-    background-color:#212529;
+:root {
+    --bs-body-bg: black;
+}
+
+.header-title {
+    text-align: center;
 }
