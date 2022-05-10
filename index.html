@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <style>
+      .parallax {
+        /* The image used */
+        background-image: url("/IMG/Arceus\ Painting\ Pokemon.jpg");
+      
+        /* Set a specific height */
+        min-height: 500px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      </style>
+
+    <script src="https://kit.fontawesome.com/2c3206bd17.js" crossorigin="anonymous"></script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +31,7 @@
  
     <title>PokéGuide</title>
   </head>
-  <body>    
+  <body class="bg-dark">
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -42,10 +60,6 @@
               <a class="nav-link"href="#">Movies</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -56,35 +70,128 @@
       </div>
     </div>
 
-    <div class="container-fluid d-flex justify-content-center align-items-center">
-      <div>
+    <h1 class="header-foot p-4">Latest Content</h1>
 
-        left off here
+<section>
+<div class="parent container-fluid d-flex justify-content-evenly p-3">
+  <div class="child d-flex p-2">
+    <img src="IMG/Pokémon_Scarlet_and_Violet_banner.png" alt="games">
+  </div>
+  <div class="child d-flex p-2">
+    <img src="IMG/Master Journeys.webp" alt="show">
+  </div>
+  <div class="child d-flex p-2">
+    <img src="IMG/Pokemon_SecretsoftheJungle_Featured.jpg" alt="movie">
+  </div>
+</div>
+</section>
 
-      </div>
+<h1 class="header-foot">Games</h1>
+<br>
+<section class="container d-flex justify-content-evenly">
+  <div class="card d-flex justify-content-evenly" style="width: 18rem;">
+    <img src="IMG/pokemon snap.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">New Pokémon Snap is an on-rails first-person photography game developed by Bandai Namco Studios and published by Nintendo and The Pokémon Company for the Nintendo Switch.</p>
     </div>
+  </div>
+  <div class="card d-flex justify-content-evenly" style="width: 18rem;">
+    <img src="IMG/pokemon unite.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Pokémon Unite is a free-to-play, multiplayer online battle arena video game developed by TiMi Studio Group and published by The Pokémon Company for Android and iOS and by Nintendo for the Nintendo Switch.</p>
+    </div>
+  </div>
+  <div class="card d-flex justify-content-evenly" style="width: 18rem;">
+    <img src="IMG/Pokemon Arceus Wall.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Pokémon Legends: Arceus is a 2022 action role-playing game developed by Game Freak and published by Nintendo and The Pokémon Company for the Nintendo Switch.</p>
+    </div>
+  </div>
+</section>
+<br>
+<br>
 
-    <section>
-      <div class="container-fluid d-flex justify-content-center">
-        <div>
-          <img src="IMG/Group 2.png" alt="">
-        </div>
-      </div>
-    </section>
+<h1 class="header-foot">TV Shows</h1>
+<br>
+<section class="container d-flex justify-content-evenly">
+  <div class="card d-flex justify-content-evenly" style="width: 18rem;">
+    <img src="IMG/pokemon sun and moon.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Pokémon the Series: Sun & Moon – Ultra Legends is the twenty-second season of the Pokémon anime series, and the third and final season of Pokémon the Series: Sun & Moon</p>
+    </div>
+  </div>
+  <div class="card d-flex justify-content-evenly" style="width: 18rem;">
+    <img src="IMG/pokemon journeys.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Pokémon Journeys: The Series is the seventh series of the Pokémon anime. This anime series is based on the events of all the core series games. It follows Pokémon the Series: Sun & Moon</p>
+    </div>
+  </div>
+  <div class="card d-flex justify-content-evenly" style="width: 18rem;">
+    <img src="IMG/pokemon master journeys.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Pokémon Master Journeys: The Series is the twenty-fourth and current season of the Pokémon animated series, and the second season of Pokémon Journeys: The Series, known in Japan as Pocket Monsters.</p>
+    </div>
+  </div>
+</section>
+<br>
+<br>
 
+<h1 class="header-foot">Movies</h1>
+<br>
+<section class="container d-flex justify-content-evenly">
+  <div class="card d-flex justify-content-evenly" style="width: 18rem;">
+    <img src="IMG/power-of-us.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Pokémon the Movie: The Power of Us is a 2018 Japanese anime adventure film based on Satoshi Tajiri's Pokémon media franchise. Five strangers come together to save the day in Fula City when a series of threats endanger the annual Wind Festival and the city's entire population.
+      </p>
+    </div>
+  </div>
+  <div class="card d-flex justify-content-evenly" style="width: 18rem;">
+    <img src="IMG/Mewtwo.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Pokémon: Mewtwo Strikes Back—Evolution is a 2019 Japanese computer-animated film directed by Kunihiko Yuyama and Motonori Sakakibara. The film is the 22nd installment in the Pokémon film series and a CGI remake of the first film.</p>
+    </div>
+  </div>
+  <div class="card d-flex justify-content-evenly" style="width: 18rem;">
+    <img src="IMG/Pokemon_SecretsoftheJungle_Featured.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Koko is a young boy who lives in the jungle with a solitary Zarude and is raised by Pokémon. When he meets Ash and Pikachu, he discovers the human world and a plot threatening his home.</p>
+    </div>
+  </div>
+</section>
+<br>
+<br>
+
+    <div class="parallax"></div>
 
     <h1 class="header-foot p-5">Click A Ball Trainer to Discover More in The World of Pokémon!</h1>
 
-  <footer>
     <div class="container-fluid d-flex justify-content-evenly">
       <div>
-        <img src="IMG/Pokeball.png" height="100px" alt="facebook"></div>
+        <a target="_blank"href="https://github.com/RobbieHart/Final-Project.git">
+        <img src="IMG/Pokeball.png" height="100px" alt="facebook"></a>
+      </div>
       <div>
-        <img src="IMG/Great_Ball.png" height="100px" alt="something"></div>
+        <a target="_blank" href="https://tcg.pokemon.com/en-us/">
+        <img src="IMG/Great_Ball.png" height="100px" alt="something"></a>
+      </div>
       <div>
-        <img src="IMG/Ultra_Ball.png" height="100px" alt="twitter"></div>
+        <a target="_blank" href="https://pokemongolive.com/en/">
+        <img src="IMG/Ultra_Ball.png" height="100px" alt="twitter"></a>
+      </div>
       <div>
-        <img src="IMG/Master_Ball.png" height="100px" alt="instagram"></div>
+        <a target="_blank" href="https://www.pokemoncenter.com/">
+        <img src="IMG/Master_Ball.png" height="100px" alt="instagram"></a>
+      </div>
+    </div>
+
+  <footer class="container-fluid">
+    <div>
+      <i class="fa-brands fa-facebook-square"></i>
+    </div>
+    
+    </div>
+      <i class="fa-brands fa-instagram-square"></i>
     </div>
   </footer>
   </body>
