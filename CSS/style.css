@@ -68,6 +68,9 @@ p {
       padding-right: 50px;
   }
 
+  a:link {
+      text-decoration: none; 
+  }
 
 
   /* media mobile */
