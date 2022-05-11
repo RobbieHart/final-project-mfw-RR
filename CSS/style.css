@@ -40,3 +40,66 @@ p {
     color: rgb(0, 0, 0);
     font-family: 'Work Sans', sans-serif;
 }
+.contact-form {
+    margin-top: 150px;
+    padding-left: 15px;
+}
+
+.card-thumbnail {
+    height: 250px;
+    width: 250px;
+}
+
+.parallax {
+    /* The image used */
+    background: url(/IMG/Arceus-Painting-Pokemon.jpg);
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer-social {
+      margin-top: 100px;
+  }
+
+  .footer-text {
+      font-size: 50px;
+      color: white;
+  }
+
+  .fa-brands {
+      color: white;
+      align-items: center;
+      font-size: 60px;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+
+
+
+  /* media mobile */
+  @media screen and (min-width:375px) and (max-width:768px){
+    .card-thumbnail {
+        width: 100%;
+        height: auto;
+    }
+    .no-mobile {
+        display: none;
+    }
+    .fa-brands {
+        padding-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 50px;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+
+}
